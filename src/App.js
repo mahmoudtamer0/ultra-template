@@ -12,7 +12,7 @@ class App extends Component {
         <BrowserRouter>
           <Navbar />
           <Routes>
-            <Route path='/' Component={Index} />
+            <Route exact path='/' Component={Index} />
             <Route path='/contact' Component={Contact} />
           </Routes>
           <Footer />
