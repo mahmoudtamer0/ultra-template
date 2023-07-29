@@ -27,15 +27,15 @@
     display: none
 }
 
-/* .navbar label {
+.navbar label {
     display: block;
     width: 15px;
     height: 15px;
-    background: url('../images/Navbar/open.png') no-repeat;
+    background: url('../../../public/images/open.png') no-repeat;
     background-size: cover;
     padding: 20px;
     cursor: pointer;
-} */
+}
 
 .navbar input:checked~.ul-list {
     display: block;
@@ -75,6 +75,7 @@
         display: none
     }
 }
+
 
 @media (max-width : 991px) {
     .navbar .logo {
